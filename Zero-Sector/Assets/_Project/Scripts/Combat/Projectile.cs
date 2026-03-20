@@ -1,4 +1,6 @@
 using UnityEditor.Experimental.GraphView;
+/* All basic Projectile logic */
+
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -6,6 +8,7 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed = 12f;
     [SerializeField] private float lifetime = 2f;
+    [SerializeField] private int damage = 1;
 
     private Rigidbody2D rb;
 
@@ -24,5 +27,15 @@ public class Projectile : MonoBehaviour
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        BaseEnemy enemy = other.GetComponent<BaseEnemy>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
 }

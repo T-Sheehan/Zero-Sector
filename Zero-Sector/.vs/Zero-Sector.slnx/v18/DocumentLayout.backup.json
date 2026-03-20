@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\chaserenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\chaserenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +46,8 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwCIAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T17:15:02.78Z"
+              "WhenOpened": "2026-03-20T17:15:02.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,7 +59,21 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T16:58:33.804Z"
+              "WhenOpened": "2026-03-20T16:58:33.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChaserEnemy.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T16:53:53.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,58 +85,34 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Combat\\Projectile.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T20:22:36.126Z"
+              "WhenOpened": "2026-03-18T20:22:36.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwDEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA6wDEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T19:00:11.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BaseEnemy.cs",
               "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
               "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADgvy8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAADgvyEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T16:42:13.824Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChaserEnemy.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:00:45.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChaserEnemy.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T16:53:53.514Z"
             }
           ]
         }

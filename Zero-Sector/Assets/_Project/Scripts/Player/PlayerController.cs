@@ -1,22 +1,19 @@
+/* Handles all player inputs (in future combat logic may also be moved to a new script) */
+
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Rendering;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement")]
-    [SerializeField] private float moveSpeed = 6f;
-
     [Header("References")]
     [SerializeField] private Transform visual;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform projectileParent;
 
-    [Header("Shooting")]
-    [SerializeField] private float fireCooldown = 0.2f;
 
+    private PlayerStats stats;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private float fireCooldownTimer = 0.2f;
@@ -24,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        stats = GetComponent<PlayerStats>();
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -50,7 +48,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         // Apply movement
-        rb.linearVelocity = moveInput * moveSpeed;
+        rb.linearVelocity = moveInput * stats.MoveSpeed;
     }
 
     public void OnShoot(InputAction.CallbackContext context)
@@ -59,7 +57,7 @@ public class PlayerController : MonoBehaviour
         if (fireCooldownTimer > 0) return;
 
         Shoot();
-        fireCooldownTimer = fireCooldown;
+        fireCooldownTimer = stats.FireCooldown;
     }
 
     private void Shoot()
