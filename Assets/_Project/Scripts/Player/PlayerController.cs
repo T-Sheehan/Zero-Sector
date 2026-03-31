@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private PlayerStats stats;
     private Rigidbody2D rb;
     private Vector2 moveInput;
+    private Vector2 moveDirection = Vector2.down;
     private float fireCooldownTimer = 0.2f;
 
     private void Awake()
@@ -26,18 +27,25 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<Vector2>();
+        Vector2 rawInput= context.ReadValue<Vector2>();
+
+        moveInput = new Vector2(
+            Mathf.Round(rawInput.x),
+            Mathf.Round(rawInput.y)
+        );
     }
 
     private void Update()
     {
         if (moveInput != Vector2.zero)
         {
-            float angle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg;
+            moveDirection = moveInput.normalized;
+
+            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
             visual.rotation = Quaternion.Euler(0f, 0f, angle + 90f);
 
             firePoint.rotation = Quaternion.Euler(0f, 0f, angle + 90f);
-        }
+        } 
 
         if (fireCooldownTimer > 0f)
         {
@@ -48,7 +56,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         // Apply movement
-        rb.linearVelocity = moveInput * stats.MoveSpeed;
+        rb.linearVelocity = moveDirection * stats.MoveSpeed;
     }
 
     public void OnShoot(InputAction.CallbackContext context)
@@ -74,7 +82,7 @@ public class PlayerController : MonoBehaviour
         Projectile projectile = bullet.GetComponent<Projectile>();
         if (projectile != null)
         {
-            Vector2 shootDirection = -visual.up;
+            Vector2 shootDirection = moveDirection;
             projectile.Initialize(shootDirection);
         }
     }
