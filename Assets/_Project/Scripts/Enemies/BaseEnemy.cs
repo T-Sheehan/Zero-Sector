@@ -7,6 +7,7 @@ public abstract class BaseEnemy : MonoBehaviour
     [SerializeField] protected int maxHealth = 3;
     [SerializeField] protected int contactDamage = 1;
     [SerializeField] protected float damageCooldown = 0.5f;
+    [SerializeField] protected int scoreValue = 100;
 
     [Header("References")]
     [SerializeField] protected Transform visual;
@@ -106,6 +107,10 @@ public abstract class BaseEnemy : MonoBehaviour
 
     protected virtual void Die()
     {
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(scoreValue);
+        }
         if (explosionPrefab != null)
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
