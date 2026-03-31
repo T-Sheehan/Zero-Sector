@@ -61,7 +61,11 @@ public abstract class BaseEnemy : MonoBehaviour
 
     protected virtual void FixedUpdate()
     {
-        rb.linearVelocity = moveDirection * moveSpeed;
+        if (rb != null)
+        {
+            rb.linearVelocity = moveDirection * moveSpeed;
+
+        }
     }
 
     protected abstract void HandleBehaviour();
@@ -77,9 +81,15 @@ public abstract class BaseEnemy : MonoBehaviour
     protected virtual void FindPlayerTarget()
     {
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+
         if (playerObject != null)
         {
             target = playerObject.transform;
+            Debug.Log($"{name} found player target: {target.name}");
+        }
+        else
+        {
+            Debug.LogWarning($"{name} could not find any object with tag Player");
         }
     }
 
