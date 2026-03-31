@@ -4,7 +4,6 @@ public class SpawnManager : MonoBehaviour
 {
     [SerializeField] private GameObject chaserEnemyPrefab;
     [SerializeField] private Transform[] spawnPoints;
-    [SerializeField] private int enemiesToSpawn = 3;
     [SerializeField] private Transform enemyParent;
 
     public void SpawnSector(int sectorIndex)
