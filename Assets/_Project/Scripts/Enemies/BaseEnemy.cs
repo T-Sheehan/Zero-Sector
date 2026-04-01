@@ -86,11 +86,6 @@ public abstract class BaseEnemy : MonoBehaviour
         if (playerObject != null)
         {
             target = playerObject.transform;
-            Debug.Log($"{name} found player target: {target.name}");
-        }
-        else
-        {
-            Debug.LogWarning($"{name} could not find any object with tag Player");
         }
     }
 

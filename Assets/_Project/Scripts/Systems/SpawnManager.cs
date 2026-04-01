@@ -10,7 +10,6 @@ public class SpawnManager : MonoBehaviour
     {
         if (chaserEnemyPrefab == null || spawnPoints == null || spawnPoints.Length == 0)
         {
-            Debug.LogWarning("SpawnManager is missing references.");
             return;
         }
 
@@ -26,6 +25,5 @@ public class SpawnManager : MonoBehaviour
             );
         }
 
-        Debug.Log("Spawned Sector " + sectorIndex + " with " + enemyCount + " enemies.");
     }
 }
