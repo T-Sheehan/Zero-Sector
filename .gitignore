@@ -12,6 +12,8 @@ Recordings/
 *.csproj
 *.unityproj
 *.sln
+*.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
@@ -22,6 +24,9 @@ Recordings/
 *.mdb
 *.opendb
 *.VC.db
+
+DocumentLayout.json
+DocumentLayout.backup.json
 
 sysinfo.txt
 
