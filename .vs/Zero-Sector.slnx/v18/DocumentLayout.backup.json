@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\turretenemy\\turretenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\turretenemy\\turretenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\turretenemy\\turretcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\turretenemy\\turretcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\turretenemy\\turretnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\turretenemy\\turretnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\combat\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\combat\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\ui\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\enemies\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemies\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\thomas\\personal\\projects\\bosconian shooter\\zero-sector\\zero-sector\\assets\\_project\\scripts\\systems\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\systems\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +42,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCIAAABzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TurretCore.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretCore.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretCore.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretCore.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretCore.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T17:15:02.78Z"
+              "WhenOpened": "2026-04-07T15:29:44.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TurretNode.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretNode.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretNode.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretNode.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:29:15.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TurretEnemy.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretEnemy.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretEnemy.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\TurretEnemy\\TurretEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:28:44.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,72 +91,62 @@
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerStats.cs",
               "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T16:58:33.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Projectile.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Combat\\Projectile.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Combat\\Projectile.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Combat\\Projectile.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Combat\\Projectile.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T20:22:36.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwDEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:00:11.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseEnemy.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADgvy8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T16:42:13.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChaserEnemy.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:00:45.072Z",
+              "WhenOpened": "2026-04-07T15:21:27.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ChaserEnemy.cs",
-              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\ChaserEnemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Title": "BaseEnemy.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemies\\BaseEnemy.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAQwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T16:53:53.514Z"
+              "WhenOpened": "2026-04-01T19:42:09.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Systems\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Systems\\SpawnManager.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Systems\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Systems\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T23:43:53.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthUI.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\UI\\HealthUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\HealthUI.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\UI\\HealthUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\HealthUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T23:23:06.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Thomas\\Personal\\Projects\\Bosconian Shooter\\Zero-Sector\\Zero-Sector\\Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:15:22.788Z",
+              "EditorCaption": ""
             }
           ]
         }

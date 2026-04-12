@@ -2257,9 +2257,14 @@ MonoBehaviour:
   chaserEnemyPrefab: {fileID: 7662207526511947857, guid: 173e107bbf6a83d4ca273964a53551d5, type: 3}
   spawnPoints:
   - {fileID: 1361047081}
+  - {fileID: 1361047081}
+  - {fileID: 887728395}
   - {fileID: 887728395}
   - {fileID: 1307995730}
+  - {fileID: 1307995730}
   - {fileID: 674103600}
+  - {fileID: 674103600}
+  - {fileID: 1690315390}
   - {fileID: 1690315390}
   enemyParent: {fileID: 1890457480}
 --- !u!1 &1983888673

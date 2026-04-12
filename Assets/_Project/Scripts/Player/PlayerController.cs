@@ -12,12 +12,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform projectileParent;
 
+    
+
 
     private PlayerStats stats;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Vector2 moveDirection = Vector2.down;
     private float fireCooldownTimer = 0.2f;
+    private float dashCooldownTimer = 1f;
+    private float dashTimer = 0.15f;
+    private bool isDashing = false;
+    private Vector2 dashDirection;
 
     private void Awake()
     {
@@ -33,11 +39,27 @@ public class PlayerController : MonoBehaviour
             Mathf.Round(rawInput.x),
             Mathf.Round(rawInput.y)
         );
+
+        // Only update stored move/facing direction when input is non-zero
+        if (moveInput != Vector2.zero)
+        {
+            moveDirection = moveInput.normalized;
+        }
     }
 
     private void Update()
     {
-        if (moveInput != Vector2.zero)
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        mouseWorldPos.z = 0f;
+
+        Vector2 aimDirection = (mouseWorldPos - transform.position).normalized;
+
+        if (aimDirection != Vector2.zero)
+        {
+            float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
+        }
+
+        if (!isDashing && moveInput != Vector2.zero)
         {
             moveDirection = moveInput.normalized;
 
@@ -47,14 +69,33 @@ public class PlayerController : MonoBehaviour
             firePoint.rotation = Quaternion.Euler(0f, 0f, angle + 90f);
         } 
 
+        if (isDashing)
+        {
+            dashTimer -= Time.deltaTime;
+            if (dashTimer <= 0)
+            {
+                isDashing = false;
+            }
+        }
+
         if (fireCooldownTimer > 0f)
         {
             fireCooldownTimer -= Time.deltaTime;
+        }
+        if (dashCooldownTimer > 0f)
+        {
+            dashCooldownTimer -= Time.deltaTime;
         }
     }
 
     private void FixedUpdate()
     {
+        if (isDashing)
+        {
+            rb.linearVelocity = dashDirection * stats.DashSpeed;
+            return;
+        }
+
         // Apply movement
         rb.linearVelocity = moveDirection * stats.MoveSpeed;
     }
@@ -72,6 +113,10 @@ public class PlayerController : MonoBehaviour
     {
         if (bulletPrefab == null || firePoint == null) return;
 
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        mouseWorldPos.z = 0f;
+        Vector2 shootDirection = (mouseWorldPos - transform.position).normalized;
+
         GameObject bullet = Instantiate(
             bulletPrefab,
             firePoint.position,
@@ -82,9 +127,35 @@ public class PlayerController : MonoBehaviour
         Projectile projectile = bullet.GetComponent<Projectile>();
         if (projectile != null)
         {
-            Vector2 shootDirection = moveDirection;
             projectile.Initialize(shootDirection);
         }
+    }
+
+    private void Dash()
+    {
+        isDashing = true;
+        dashTimer = stats.DashDuration;
+        dashCooldownTimer = stats.DashCooldown;
+
+        //Dash in current movement direction
+        if (moveInput != Vector2.zero)
+        {
+            dashDirection = moveInput.normalized;
+        } 
+        else
+        {
+            dashDirection = moveDirection;
+        }
+    }
+
+    public void OnDash(InputAction.CallbackContext context)
+    {
+        if (!context.performed) return;
+        if (dashCooldownTimer > 0) return;
+        if (isDashing) return;
+
+        Dash();
+        dashCooldownTimer = stats.DashCooldown;
     }
 }
 

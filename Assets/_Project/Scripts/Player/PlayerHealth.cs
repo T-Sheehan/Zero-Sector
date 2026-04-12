@@ -1,5 +1,6 @@
 /* Stores all health logic for the player */
 
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerStats))]
