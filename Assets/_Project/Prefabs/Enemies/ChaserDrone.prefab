@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1152494965
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1789744279, guid: bc81a9acbe373a547b2c465c3cb10725, type: 3}
@@ -205,7 +205,11 @@ MonoBehaviour:
   maxHealth: 1
   contactDamage: 1
   damageCooldown: 0.5
+  scoreValue: 100
   visual: {fileID: 7173194404354927464}
   target: {fileID: 0}
   explosionPrefab: {fileID: 3278210211872125068, guid: c60521c8827f98842b386f822be38269, type: 3}
   flashDuration: 0.1
+  turnSpeed: 4
+  maxAngleOffset: 20
+  directionUpdateInterval: 0.75
