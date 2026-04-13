@@ -5,10 +5,11 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private GameObject chaserEnemyPrefab;
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private Transform enemyParent;
+    [SerializeField] private bool activated = true;
 
     public void SpawnSector(int sectorIndex)
     {
-        if (chaserEnemyPrefab == null || spawnPoints == null || spawnPoints.Length == 0)
+        if (chaserEnemyPrefab == null || spawnPoints == null || spawnPoints.Length == 0 || !activated)
         {
             return;
         }
